@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
 }
@@ -30,10 +31,8 @@ nav a {
     margin-bottom: 100px;
 }
 .about {
-    width: 1020px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 200px;
+    width: 1200px;
+    margin-left: 100px;
     background-color: green;
     float: left;
 }
@@ -41,8 +40,6 @@ nav a {
     width: 610px;
     height: 342px;
     float: left;
-    margin-right;
-    15px;
 }
 .about h2 {
     width: 410px;
@@ -52,12 +49,14 @@ nav a {
     text-decoration: none;
     text-align: center;
     background-color: orange;
+    padding-top: 10px;
 }
 .about p {
     width: 410px;
     float: left;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
+    padding-top: 10px;
 }
 .clear-fix:after {
     content: '';
