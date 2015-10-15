@@ -2,12 +2,63 @@ body {
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
 }
-
-h1, h2{
+h1 {
+    font-family: 'Anton', bold, sans-serif;
+    font-size: 60px;
+    float: left;
+}
+nav a {
+    float: left;
     font-family: 'Anton', sans-serif;
     font-size: 20px;
+    width: 10%;
+    height: 60px;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
 }
-
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#dead-or-alive img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.about {
+    width: 1020px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    background-color: green;
+    float: left;
+}
+.about img {
+    width: 610px;
+    height: 342px;
+    float: left;
+    margin-right;
+    15px;
+}
+.about h2 {
+    width: 410px;
+    float: left;
+    font-family: 'Anton', bold, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    background-color: orange;
+}
+.about p {
+    width: 410px;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
 .clear-fix:after {
     content: '';
     display: block;
