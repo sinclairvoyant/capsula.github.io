@@ -85,21 +85,22 @@
         </section>
         <!--Anchors End-->
 
-        <!--Subscribe Start-->
-        <section class="subscribe">
+        <!--Subscribe/Photos Start-->
+        <section id="subscribe">
             <div id="photos">
                 <img src="img/capsula-8.jpg">
-                <h2>Photos</h2>
+                <a href="http://www.capsulacapsula.com/photos/"><h2>Photos</h2></a>
             </div>
             <div id="subscribe-form">
                 <img src="img/capsula-7.jpg">
                 <h2>Subscribe / Subscribite</h2>
                 <p>Sign up with your email address to receive news and updates.</p>
-                <p>Apuntate con tu email para recibir noticias.</p>
+                <p>Apuntate con tu email para recibir noticias.
+                    <form action="index.html" method="post" class="subscribe-form">
+                        <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus>
+                        <button type="submit" class="subscribe-submit">Subscribe</button>
+                    </form>
+                </p>
             </div>
-            <form action="index.html" method="post" class="subscribe-form">
-                <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus>
-                <button type="submit" class="subscribe-submit">Subscribe</button>
-            </form>
         </section>
         <!--Section-->
