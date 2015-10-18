@@ -1,5 +1,4 @@
 body {
-   
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
     color: whitesmoke;
@@ -8,8 +7,10 @@ body {
 h1 {
     width: 650px;
     font-family: 'Anton', bold, sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 nav a {
     float: left;
@@ -18,8 +19,9 @@ nav a {
     height: 60px;
     padding: 30px;
     text-decoration: none;
-   color: whitesmoke;
+    color: whitesmoke;
     text-align: center;
+    margin-top: 20px;
 }
 .clear-fix:after {
     content: '';
@@ -30,23 +32,23 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .about {
     width: 1200px;
-    margin-left: 100px;
-    margin-bottom: 100px;
+    margin-left: 92px;
+    margin-right: 92px;
+    margin-bottom: 50px;
     float: left;
 }
 .about img {
-    width: 546px;
-    height: 364px;
     float: left;
 }
 .about h2 {
-    width: 600px;
+    width: 450px;
     float: left;
     font-family: 'Anton', bold, sans-serif;
+    margin: 0 75px;
     font-size: 30px;
     text-decoration: none;
     text-align: center;
@@ -59,20 +61,23 @@ nav a {
     margin: 0 75px;
     padding-top: 10px;
 }
-.clear-fix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 #anchors {
-    background-color: orange;
-    width:100%;
-    float:left;
+    width: 1200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    float: left;
 }
-
-#anchor img {
-    float:left;
-    
-    
-    
+#anchors div {
+    width: 250px;
+    padding: 25px;
+    float: left;
+    text-align: center;
+}
+#anchors a {
+    font-family: 'Anton', bold, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+}
