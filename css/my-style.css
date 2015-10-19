@@ -63,11 +63,6 @@ nav a {
     padding-top: 10px;
     color: #32BEA6;
 }
-.clear-fix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
 .about p {
     width: 450px;
     float: left;
