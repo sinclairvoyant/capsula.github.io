@@ -1,117 +1,25 @@
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 16px;
     color: whitesmoke;
     background: #0D1017;
 }
-h1 {
-    width: 650px;
-    font-family: 'Anton', bold, sans-serif;
-    font-size: 80px;
-    color: #32BEA6;
-    text-shadow: 2px 2px 4px whitesmoke;
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
+.hero-unit {
+    background-image: url(../img/capsula-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
 }
-h2 {
-    font-family: 'Anton', bold, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 10px;
-    color: #32BEA6;
-}
-a {
-    text-decoration: none;
-    color: #32BEA6;
-}
-nav a {
-    float: left;
-    font-family: 'Anton', sans-serif;
-    font-size: 20px;
+.opaque-navbar {
+    background-color: rgba(0, 0, 0, 0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 60px;
-    padding: 30px;
-    text-decoration: none;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 20px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
 }
-#landing img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-}
-.about {
-    width: 1200px;
-    margin-left: 92px;
-    margin-right: 92px;
-    margin-bottom: 50px;
-    float: left;
-}
-.about img {
-    float: left;
-}
-.about h2 {
-    width: 450px;
-    float: left;
-    font-family: 'Anton', bold, sans-serif;
-    margin: 0 75px;
-    font-size: 30px;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 10px;
-    color: #32BEA6;
-}
-.about p {
-    width: 450px;
-    float: left;
-    text-align: center;
-    margin: 0 75px;
-    padding-top: 10px;
-}
-#anchors {
-    width: 1200px;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    float: left;
-}
-#anchors div {
-    width: 250px;
-    padding: 25px;
-    float: left;
-    text-align: center;
-}
-#anchors a {
-    font-family: 'Anton', bold, sans-serif;
-    font-size: 30px;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 10px;
-    color: #32BEA6;
-    background-color: aqua;
-}
-#subscribe {
-    width: 1200px;
-    margin: 0 100px;
-    float: left;
-}
-#subscribe div {
-    width: 600px;
-    height: 400px;
-    float: left;
-    text-align: center;
-}
-.social-media {
-    float: left;
-    margin: 0px 225px;
-}
-#footer {
-    float: left;
-    width: 1200px;
-    height: auto;
-    margin: 50px 307px;
-}
-#footer h2 {
-    width: 750px;
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
 }
