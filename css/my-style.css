@@ -23,3 +23,6 @@ body {
     height: 60px;
     transition: background-color .5s ease 0s;
 }
+.navbar-header {
+    width: 100%;
+}
