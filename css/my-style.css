@@ -2,7 +2,38 @@ body {
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
     color: whitesmoke;
-    background: #0D1017;
+    background: #040001;
+}
+
+/*Change font color of navbar and navbar brand*/
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #CF0000;
+}
+.opaque-navbar {
+    background-color: rgba(0, 0, 0, 0);
+    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 70px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+.opaque-navbar.opaque {
+    background-color: #010001;
+    height: 70px;
+    transition: background-color .5s ease 0s;
+}
+.navbar-header {
+    width: 98%;
+    font-family: 'Oswald', sans serif;
+    font-size: 20px;
+    margin: 1%;
+}
+.navbar-brand {
+    font-family: 'Oswald', sans serif;
+    font-size: 60px;
 }
 .hero-unit {
     background-image: url(../img/capsula-hero.jpg);
@@ -10,19 +41,26 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
+    margin-bottom: 5%;
 }
-.opaque-navbar {
-    background-color: rgba(0, 0, 0, 0);
-    /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
-    height: 60px;
-    border-bottom: 0px;
-    transition: background-color .5s ease 0s;
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    color: #CF0000;
+    text-align: center;
 }
-.opaque-navbar.opaque {
-    background-color: black;
-    height: 60px;
-    transition: background-color .5s ease 0s;
+.pleased {
+    margin-bottom: 10%;
+    text-align: center;
+    margin-right: 2%;
 }
-.navbar-header {
-    width: 100%;
+.about {
+    text-align: justify;
+}
+.anchors {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.anchors a {
+    text-decoration: none;
 }
