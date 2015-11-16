@@ -5,14 +5,17 @@ body {
     background: #040001;
 }
 
+
 /*Change font color of navbar and navbar brand*/
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
+
 .navbar-default .navbar-brand {
     color: #CF0000;
 }
+
 .opaque-navbar {
     background-color: rgba(0, 0, 0, 0);
     /*     Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -20,24 +23,29 @@ body {
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
 }
+
 .opaque-navbar.opaque {
     background-color: #010001;
     height: 80px;
     transition: background-color .5s ease 0s;
 }
+
 .navbar-header {
     width: 98%;
     font-family: 'Oswald', sans serif;
     font-size: 20px;
     margin: 1%;
 }
+
 .navbar-brand {
     font-family: 'Oswald', sans serif;
     font-size: 60px;
 }
+
 .btn {
     margin-right: 20px;
 }
+
 .hero-unit {
     background-image: url(../img/capsula-hero.jpg);
     background-position: center;
@@ -46,37 +54,49 @@ body {
     height: 100vh;
     margin-bottom: 5%;
 }
+
 h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
     color: #CF0000;
     text-align: center;
 }
+
 .pleased {
     margin-bottom: 10%;
     text-align: center;
     margin-right: 2%;
 }
+
 .about {
     text-align: justify;
 }
+
 .anchors {
     text-align: center;
     margin-bottom: 10%;
 }
+
 .anchors a {
     text-decoration: none;
 }
+
 .watch {
     background-color: #CF0000;
     text-align: center;
-    height: 500px;
+    height: 600px;
     margin: 10% 0;
+    width: 100%;
 }
+
 .watch h2 {
-    margin-top: 10%;
     color: black;
 }
+
+.watch a {
+    text-decoration: inherit;
+}
+
 .carousel-caption p {
     display: inline-block;
     background-color: black;
@@ -90,10 +110,23 @@ h2 {
     width: 100%;
     border: 5px solid black;
 }
+
 .item img {
     max-height: 550px;
     width: 100%;
 }
+
 .carousel {
     margin-bottom: 10%;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 700px) {
+    .watch {
+        height: 800px;
+        margin: 10% 0;
+        width: 100%;
+    }
 }
