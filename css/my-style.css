@@ -5,17 +5,14 @@ body {
     background: #040001;
 }
 
-
 /*Change font color of navbar and navbar brand*/
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
-
 .navbar-default .navbar-brand {
     color: #CF0000;
 }
-
 .opaque-navbar {
     background-color: rgba(0, 0, 0, 0);
     /*     Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -23,29 +20,24 @@ body {
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
 }
-
 .opaque-navbar.opaque {
     background-color: #010001;
     height: 80px;
     transition: background-color .5s ease 0s;
 }
-
 .navbar-header {
     width: 98%;
     font-family: 'Oswald', sans serif;
     font-size: 20px;
     margin: 1%;
 }
-
 .navbar-brand {
     font-family: 'Oswald', sans serif;
     font-size: 60px;
 }
-
 .btn {
     margin-right: 20px;
 }
-
 .hero-unit {
     background-image: url(../img/capsula-hero.jpg);
     background-position: center;
@@ -54,49 +46,40 @@ body {
     height: 100vh;
     margin-bottom: 5%;
 }
-
 h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
     color: #CF0000;
     text-align: center;
 }
-
 .pleased {
     margin-bottom: 10%;
     text-align: center;
     margin-right: 2%;
 }
-
 .about {
     text-align: justify;
 }
-
 .anchors {
     text-align: center;
     margin-bottom: 10%;
 }
-
 .anchors a {
     text-decoration: none;
 }
-
 .watch {
     background-color: #CF0000;
     text-align: center;
-    height: 600px;
+    height: 700px;
     margin: 10% 0;
     width: 100%;
 }
-
 .watch h2 {
     color: black;
 }
-
 .watch a {
     text-decoration: inherit;
 }
-
 .carousel-caption p {
     display: inline-block;
     background-color: black;
@@ -110,23 +93,96 @@ h2 {
     width: 100%;
     border: 5px solid black;
 }
-
 .item img {
     max-height: 550px;
     width: 100%;
 }
-
 .carousel {
     margin-bottom: 10%;
 }
-
+.hero-quotes {
+    margin-bottom: 10%;
+}
 
 /*Media Queries*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+    .hero-unit {
+        background-image: url(../img/capsula-8.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+        margin-bottom: 1%;
+    }
+    .about {
+        padding: 0;
+        display: block;
+    }
     .watch {
-        height: 800px;
-        margin: 10% 0;
+        padding: 0;
         width: 100%;
+    }
+    .live {
+        padding: 0 min-height: 600px;
+    }
+    .hero-quotes {
+        height: 100vh;
+        padding: 0;
+    }
+    .carousel-caption p {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 12px;
+        padding: 2px;
+        top: 10%;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        border: 2px solid black;
+        margin-top: 300px;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 640px) {
+    .pleased img {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    .anchors h2 {
+        margin-bottom: 5%;
+    }
+    .about {
+        margin: 0;
+        padding: 0px;
+    }
+    .watch {
+        padding: 0;
+        width: 100%;
+    }
+    .live {
+        padding: 0 min-height: 600px;
+        margin-bottom: 3%;
+    }
+    .carousel-caption p {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        padding: 3px;
+        top: 10%;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        border: 2px solid black;
+    }
+    .carousel-inner {
+        padding: 0px;
     }
 }
